@@ -1,7 +1,12 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Head from 'next/head'
+import { Be_Vietnam_Pro } from 'next/font/google'
 
+const bevietnam = Be_Vietnam_Pro({
+  subsets: ['vietnamese'],
+  weight: ['400', '500', '700']
+})
 export default function Home() {
   return (
     <>
@@ -11,7 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className={`${bevietnam.className}`}>
         <Header/>
         <Hero/>
       </main>

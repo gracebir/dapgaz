@@ -1,43 +1,13 @@
 import Link from "next/link";
 import { useState } from "react";
-import { Poppins, Be_Vietnam_Pro } from 'next/font/google'
 import NavMob from "./NavMob/NavMob";
-
-const bevietnam = Be_Vietnam_Pro({
-    subsets: ['vietnamese'],
-    weight: ['400', '500', '700']
-})
-
-const links = [
-    {
-        name: 'Acceuil',
-        href: '/acceuil',
-    },
-    {
-        name: 'A propos',
-        href: '/apropos',
-    },
-    {
-        name: 'Produits',
-        href: '/produit',
-    },
-    {
-        name: 'Points des ventes',
-        href: '/pointsventes',
-    },
-    {
-        name: 'Contact',
-        href: '/contact',
-    }
-]
-
-// src="./imgs/DapLogo.jpg"
+import {links } from '../moks/servicesData'
 
 function Header() {
     const [open, setOpen] = useState(false)
     const isOpen = () => setOpen(!open)
     return (
-        <header className={`${bevietnam.className} lg:container mx-auto px-6 py-10 flex justify-between items-center z-40`}>
+        <header className={`lg:container mx-auto px-6 py-10 flex justify-between items-center z-40`}>
             <img src="./imgs/DapLogo.jpg" className="h-10 w-55" alt="logo" />
             {/* hamburger menu */}
             <div onClick={isOpen} className='w-7 h-7 flex flex-col gap-1 cursor-pointer lg:hidden justify-center items-center'>
