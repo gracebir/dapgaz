@@ -1,16 +1,15 @@
 import { servicesData } from "@/moks/servicesData";
-import Service from "./Service";
-import Wrapper from "./Wrapper";
+import Service from "./ServiceItem";
 
 const ServiceContainer = () => {
   return (
-    <Wrapper>
-      <div className="flex justify-center mt-10">
+    <div>
+      <div className="flex flex-col md:flex-col lg:flex-row">
         {servicesData.map((service) => {
           return <Service key={service.id} {...service} />;
         })}
       </div>
-    </Wrapper>
+    </div>
   );
 };
 

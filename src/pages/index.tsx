@@ -2,6 +2,12 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Head from 'next/head'
 import { Be_Vietnam_Pro } from 'next/font/google'
+import Service from '@/components/Service'
+import Offre from '@/components/Offre'
+import NosValeur from '../components/NosValeurs'
+import Question from '@/components/Question'
+import Action from '@/components/Action'
+import Footer from '@/components/Footer'
 
 const bevietnam = Be_Vietnam_Pro({
   subsets: ['vietnamese'],
@@ -19,6 +25,12 @@ export default function Home() {
       <main className={`${bevietnam.className}`}>
         <Header/>
         <Hero/>
+        <Service/>
+        <Offre/>
+        <NosValeur/>
+        <Question/>
+        <Action/>
+        <Footer/>
       </main>
     </>
   )

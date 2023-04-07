@@ -23,8 +23,12 @@ module.exports = {
         'clLightGray': 'var(--color-light-gray)'
       },
       backgroundImage:{
-        'bgHero':"url('https://res.cloudinary.com/dnzidlufh/image/upload/v1680855593/hero_k1ivox.png')"
+        'bgHero':"url('https://res.cloudinary.com/dnzidlufh/image/upload/v1680855593/hero_k1ivox.png')",
+        'bg-action':"url('https://res.cloudinary.com/dnzidlufh/image/upload/v1680893435/action_atqbli.png')"
       },
+      boxShadow:{
+        'card-shadw':'0px 4px 4px rgba(0, 0, 0, 0.25)'
+      }
     },
   },
   plugins: [],

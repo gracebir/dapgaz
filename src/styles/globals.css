@@ -15,5 +15,30 @@
     
     body{
         font-family: 'Be Vietnam Pro', sans-serif;
+        background-color: #D9D9D9;
     }
+}
+
+.action{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 239px;
+    background-color: black;
+}
+
+.action::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-image: url('https://res.cloudinary.com/dnzidlufh/image/upload/v1680893435/action_atqbli.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25;
 }

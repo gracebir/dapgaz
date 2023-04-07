@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Service = ({ styles, title, icon, content, bg }) => {
+const Service = ({ title, icon, content, bg }) => {
   return (
     <div
       className={`${bg} w-[420px] flex flex-col items-center justify-center px-20 py-8`}
