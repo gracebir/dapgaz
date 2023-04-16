@@ -10,7 +10,7 @@ type props = {
 
 const bevietnam = Be_Vietnam_Pro({
     subsets: ['vietnamese'],
-    weight: ['400', '500', '700']
+    weight: ['400', '500', '700','800']
 })
 
 function Layout({ children }: props) {

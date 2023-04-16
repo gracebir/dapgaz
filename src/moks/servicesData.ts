@@ -168,10 +168,35 @@ export const links = [
   },
   {
       name: 'Points des ventes',
-      href: '/pointsventes',
+      href: '/pointvente',
   },
   {
       name: 'Contact',
       href: '/contact',
+  }
+]
+
+//-4.368219188288317, 15.256476559450432 // kin
+// -2.5053256854031445, 28.862939164830618 // Bukavu
+// -1.658769, 29.199010 // goma
+
+export const mapPoints = [
+  {
+    id: 1,
+    ville: 'Kinshasa',
+    lat: -4.368219188288317,
+    lng: 15.256476559450432
+  },
+  {
+    id: 2,
+    ville: 'Bukavu',
+    lat: -2.5053256854031445,
+    lng: 28.862939164830618
+  },
+  {
+    id: 2,
+    ville: 'Goma',
+    lat: -1.658769,
+    lng: 29.199010
   }
 ]
