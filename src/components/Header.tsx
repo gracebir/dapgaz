@@ -10,7 +10,7 @@ function Header() {
         <header className="bg-white">
             <div className={`lg:container lg:mx-auto px-6 py-10 flex justify-between items-center`}>
                 <Link href="/">
-                    <img src="./imgs/DapLogo.jpg" className="h-10 w-55" alt="logo" />
+                    <img src="https://res.cloudinary.com/dnzidlufh/image/upload/v1681626123/DapLogo_n4zvjc.jpg" className="h-10 w-55" alt="logo" />
                 </Link>
                 
                 {/* hamburger menu */}

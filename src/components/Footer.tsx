@@ -10,7 +10,7 @@ function Footer() {
   return (
     <div className="bg-black py-10">
       <div className="max-w-[1300px] mx-auto text-white flex justify-center gap-10 items-center flex-col lg:flex-row lg:items-start lg:justify-between">
-      <img src="./imgs/DapLogo.jpg" className="h-10 w-55" alt="logo" />
+      <img src="https://res.cloudinary.com/dnzidlufh/image/upload/v1681626123/DapLogo_n4zvjc.jpg" className="h-10 w-55" alt="logo" />
       <div className="flex flex-col gap-4">
         <h1 className="text-3xl underline text-center lg:text-start font-medium text-[#FC7F2A]">Adresse</h1>
         <div>
