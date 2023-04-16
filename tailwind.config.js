@@ -20,7 +20,8 @@ module.exports = {
         'clGrayish': 'var(--color-dark-grayish)',
         'clDarkBlue': 'var(--color-dark-blue)',
         'clVdarkBlue': 'var(--color-very-dark-blue)',
-        'clLightGray': 'var(--color-light-gray)'
+        'clLightGray': 'var(--color-light-gray)',
+        'cl-primary':'#FC7F2A'
       },
       backgroundImage:{
         'bgHero':"url('https://res.cloudinary.com/dnzidlufh/image/upload/v1680855593/hero_k1ivox.png')",
