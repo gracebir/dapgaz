@@ -5,10 +5,6 @@ import React, { useState } from 'react'
 import { MdPlace, MdKeyboardArrowRight } from 'react-icons/md'
 import 'leaflet/dist/leaflet.css';
 
-//-4.368219188288317, 15.256476559450432 // kin
-// -2.5053256854031445, 28.862939164830618 // Bukavu
-// -1.658769, 29.199010 // goma
-
 function PointVente() {
     const [center, setCenter] = useState<position>({lat: -4.368219188288317, lng:15.256476559450432})
     const positionChange = (lat:number, lng: number) => {
