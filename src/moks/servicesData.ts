@@ -58,6 +58,81 @@ export const card = [
   },
 ];
 
+export const product = [
+  {
+    id: 1,
+    title: "Bombone GPL",
+    subtitle: "Bombone GPL Mauve",
+    price: 12,
+  },
+  {
+    id: 2,
+    title: "Bombone GPL",
+    subtitle: "Bombone GPL Mauve",
+    price: 12,
+  },
+  {
+    id: 3,
+    title: "Bombone GPL",
+    subtitle: "Bombone GPL Mauve",
+    price: 12,
+  },
+  {
+    id: 4,
+    title: "Bombone GPL",
+    subtitle: "Bombone GPL Mauve",
+    price: 12,
+  },
+  {
+    id: 5,
+    title: "Bombone GPL",
+    subtitle: "Bombone GPL Mauve",
+    price: 12,
+  },
+  {
+    id: 6,
+    title: "Bombone GPL",
+    subtitle: "Bombone GPL Mauve",
+    price: 12,
+  },
+  {
+    id: 7,
+    title: "Bombone GPL",
+    subtitle: "Bombone GPL Mauve",
+    price: 12,
+  },
+  {
+    id: 8,
+    title: "Bombone GPL",
+    subtitle: "Bombone GPL Mauve",
+    price: 12,
+  },
+  {
+    id: 9,
+    title: "Bombone GPL",
+    subtitle: "Bombone GPL Mauve",
+    price: 12,
+  },
+  {
+    id: 10,
+    title: "Bombone GPL",
+    subtitle: "Bombone GPL Mauve",
+    price: 12,
+  },
+  {
+    id: 11,
+    title: "Bombone GPL",
+    subtitle: "Bombone GPL Mauve",
+    price: 12,
+  },
+  {
+    id: 12,
+    title: "Bombone GPL",
+    subtitle: "Bombone GPL Mauve",
+    price: 12,
+  },
+];
+
 export const value = [
   {
     id: 1,
